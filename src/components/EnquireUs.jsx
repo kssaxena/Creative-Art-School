@@ -6,16 +6,16 @@ import { ImagesForParallaxScroll } from "../AllConstants/Constants";
 
 const EnquireUs = () => {
   return (
-    <div id="contact" className={`flex bg-[#E3E5D8]`}>
-      <section className={`part_2 w-1/2 p-20 pt-28`}>
+    <div id="contact" className={`flex bg-[#E3E5D8] flex-col justify-center items-center lg:justify-start lg:items-start lg:flex-row`}>
+      <section className={`part_2 lg:w-1/2 lg:p-20 lg:pt-28 w-3/4 pt-28 mb-10 lg:mb-0 `}>
         <motion.h1
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0 }}
-          className={`text-4xl w-full pb-10 text-center font-sans font-bold drop-shadow-xl flex items-center justify-evenly`}
+          className={`lg:text-4xl text-2xl w-full lg:pb-10 p-5 text-center font-sans font-bold drop-shadow-xl flex items-center justify-evenly`}
         >
           Enquire Here
-          <ChevronDown className={`h-10 w-10`} />
+          <ChevronDown className={`lg:h-10 h-5  lg:w-10 w-5 `} />
         </motion.h1>
         <motion.div
           initial={{ y: -100, opacity: 0 }}
@@ -25,7 +25,7 @@ const EnquireUs = () => {
           <Contact_EnquiryForm />
         </motion.div>
       </section>
-      <section className="pt-10 drop-shadow-xl">
+      <section className="pt-10 drop-shadow-xl ">
         <ParallaxScroll images={ImagesForParallaxScroll} />
       </section>
     </div>

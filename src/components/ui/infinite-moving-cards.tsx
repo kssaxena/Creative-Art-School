@@ -87,7 +87,7 @@ export const InfiniteProductSlider = ({
       >
         {items.map((item, idx) => (
           <li
-            className="px-5 py-5  max-w-full relative rounded-2xl border shadow-sm shadow-black flex-shrink-0 border-gray-500  flex justify-center items-center "
+            className="lg:px-5 lg:py-5 px-1 py-1  max-w-full relative rounded-2xl border shadow-sm shadow-black flex-shrink-0 border-gray-500  flex justify-center items-center "
             // style={{
             //   background:
             //     "linear-gradient(180deg, var(--slate-800), var(--slate-900)",
@@ -103,7 +103,7 @@ export const InfiniteProductSlider = ({
               <span className=" relative z-20 text-sm leading-[1.6] text-gray-100 font-normal  ">
                 <img
                   src={item.photo}
-                  className={`h-96 w-96 rounded-lg shadow-sm shadow-black object-cover object-middle`}
+                  className={`lg:h-96 lg:w-96 h-w-56 w-56  rounded-lg shadow-sm shadow-black object-cover object-middle`}
                 />
               </span>
             </blockquote>

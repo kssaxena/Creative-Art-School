@@ -23,7 +23,7 @@ const Footer = () => {
       title: "Admission Form",
       url: `https://www.youtube.com/watch?v=mWRsgZuwf_8&list=RDeoA2NtjeJUM&index=25`,
     },
-    { id: "2", title: "Location", url: "/location" },
+    { id: "2", title: "Location", url: "/" },
     { id: "3", title: "Fees / Payments", url: "/payments" },
   ];
 

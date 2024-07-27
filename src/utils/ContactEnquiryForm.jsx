@@ -78,7 +78,7 @@ const Contact_EnquiryForm = () => {
       <div>
         <div className="w-full flex flex-col justify-center items-center">
           <label
-            className="pl-10 flex w-full text-black text-lg font-serif shadow-black drop-shadow-md font-normal p-2 "
+            className="pl-10 flex w-full text-black lg:text-lg text-xs font-serif shadow-black drop-shadow-md font-normal p-2 "
             htmlFor="name"
           >
             Name
@@ -87,13 +87,13 @@ const Contact_EnquiryForm = () => {
             name="name"
             onChange={handleChange}
             value={form.name}
-            className="w-full bg-gray-200 border-b-2 rounded-full text-black leading-tight focus:outline-none focus:shadow-outline p-5 drop-shadow-lg shadow-black"
+            className="lg:w-full w-3/4 bg-gray-200 border-b-2 rounded-full text-black leading-tight focus:outline-none focus:shadow-outline lg:p-5 p-2 drop-shadow-lg shadow-black text-xs lg:text-lg"
             id="name"
             type="name"
             placeholder="Full Name"
           />
           <label
-            className="pl-10 flex w-full text-black text-lg font-serif shadow-black drop-shadow-md font-normal p-2 "
+            className="pl-10 flex w-full text-black lg:text-lg text-xs font-serif shadow-black drop-shadow-md font-normal p-2 "
             htmlFor="email"
           >
             Email
@@ -102,13 +102,13 @@ const Contact_EnquiryForm = () => {
             name="email"
             onChange={handleChange}
             value={form.email}
-            className="w-full bg-gray-200 border-b-2 rounded-full text-black leading-tight focus:outline-none focus:shadow-outline p-5 drop-shadow-lg shadow-black"
+            className="lg:w-full w-3/4 bg-gray-200 border-b-2 rounded-full text-black leading-tight focus:outline-none focus:shadow-outline lg:p-5 p-2 drop-shadow-lg shadow-black text-xs lg:text-lg"
             id="email"
             type="email"
             placeholder="Enter your Email Address"
           />
           <label
-            className="pl-10 flex w-full text-black text-lg font-serif shadow-black drop-shadow-md font-normal p-2 "
+            className="pl-10 flex w-full text-black lg:text-lg text-xs font-serif shadow-black drop-shadow-md font-normal p-2 "
             htmlFor="phoneNumber"
           >
             Contact
@@ -117,14 +117,14 @@ const Contact_EnquiryForm = () => {
             name="number"
             onChange={handleChange}
             value={form.number}
-            className="w-full bg-gray-200 border-b-2 rounded-full text-black leading-tight focus:outline-none focus:shadow-outline p-5 drop-shadow-lg shadow-black"
+            className="lg:w-full w-3/4 bg-gray-200 border-b-2 rounded-full text-black leading-tight focus:outline-none focus:shadow-outline lg:p-5 p-2 drop-shadow-lg shadow-black text-xs lg:text-lg"
             id="number"
             type="number"
             placeholder="Enter your Contact Number"
           />
 
           <label
-            className="pl-10 flex w-full text-black text-lg font-serif shadow-black drop-shadow-md font-normal p-2 "
+            className="pl-10 flex w-full text-black lg:text-lg text-xs font-serif shadow-black drop-shadow-md font-normal p-2 "
             htmlFor="text"
           >
             Description
@@ -133,7 +133,7 @@ const Contact_EnquiryForm = () => {
             name="message"
             onChange={handleChange}
             value={form.message}
-            className="w-full bg-gray-200 border-b-2 rounded-full text-black leading-tight focus:outline-none focus:shadow-outline p-5 drop-shadow-lg shadow-black"
+            className="lg:w-full w-3/4 bg-gray-200 border-b-2 rounded-full text-black leading-tight focus:outline-none focus:shadow-outline lg:p-5 p-2 drop-shadow-lg shadow-black text-xs lg:text-lg"
             id="text"
             type=" text"
             placeholder="Description"
@@ -144,7 +144,7 @@ const Contact_EnquiryForm = () => {
             disabled={!isFormFilled()}
             onClick={handleSubmit}
             type="submit"
-            className={`px-6 py-2 rounded-full backdrop-blur-lg bg-[#0B1D24]  text-lg transform hover:-translate-y-1 transition duration-400 text-white font-light`}
+            className={`lg:px-6 lg:py-2 px-2 py-1 rounded-full backdrop-blur-lg bg-[#0B1D24] lg:text-lg text-xs transform hover:-translate-y-1 transition duration-400 text-white font-light  flex justify-center items-center text-center`}
           >
             {loading ? "Sending..." : "Send"}
           </button>

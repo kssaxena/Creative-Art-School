@@ -25,7 +25,7 @@ function App() {
           path="/registration_&_admissions"
           element={<RegistrationPage />}
         />
-        <Route path="/location" element={<MapLocation />} />
+        {/* <Route path="/location" element={<MapLocation />} /> */}
         <Route path="/payments" element={<PaymentsPage />} />
       </Routes>
       <Footer />

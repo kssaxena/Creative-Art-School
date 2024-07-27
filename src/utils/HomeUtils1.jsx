@@ -8,7 +8,7 @@ const HomeUtils1 = () => {
     "Art, like a kaleidoscope, splashes colors across the canvas of our existence. It transcends mere aesthetics; it is the heartbeat of our shared humanity. From the ancient cave paintings that whispered stories of forgotten civilizations to the avant-garde masterpieces that challenge our perceptions, art has been our silent confidante, our mirror, and our muse.";
 
   return (
-    <section className="pt-28  landing_quote_and_image flex p-20 h-full w-full ">
+    <section className="lg:pt-28 pt-28 landing_quote_and_image flex lg:p-20 h-full w-full ">
       <div className="flex flex-wrap gap-2 lg:gap-0">
         <div className="lg:w-1/2  flex justify-center items-center">
           <motion.img
@@ -25,7 +25,7 @@ const HomeUtils1 = () => {
             initial={{ x: -100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
-            className="landing_quote w-1/2 flex flex-col items-center justify-evenly h-full lg:w-full lg:items-center"
+            className="landing_quote w-3/4 flex flex-col items-center justify-evenly h-full lg:w-full lg:items-center"
           >
             <h1 className="lg:text-4xl  text-center font-semibold font-mono lg:p-10 mt-5 lg:mt-0">
               The Vibrant World of Art: Unlocking Creativity

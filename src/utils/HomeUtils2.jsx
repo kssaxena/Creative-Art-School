@@ -15,7 +15,7 @@ const HomeUtils2 = () => {
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ x: 100, opacity: 0 }}
             transition={{ duration: 0.5 }}
-            className="landing_quote w-1/2 flex flex-col items-center justify-evenly h-full lg:w-full lg:items-center gap-3"
+            className="landing_quote w-3/4 flex flex-col items-center justify-evenly h-full lg:w-full lg:items-center gap-3"
           >
             <h1 className="lg:text-4xl  text-center font-semibold font-mono lg:p-10 mt-5 lg:mt-0  ">
               Where Imagination comes alive
