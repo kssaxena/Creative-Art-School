@@ -25,32 +25,31 @@ const Footer = () => {
     },
     { id: "2", title: "Location", url: "/location" },
     { id: "3", title: "Fees / Payments", url: "/payments" },
-    // { id: "4", title: "Contact Us", url: "/contact" },
   ];
 
   return (
     <div class="relative h-full w-full bg-slate-950">
-      <div className=" w-[100%] text-white flex justify-evenly">
+      <div className=" w-[100%] text-white flex-col justify-evenly items-center flex lg:flex-row lg:items-center gap-5 ">
         <div class="absolute bottom-0 left-0 right-0 top-0 "></div>
-        <div className="flex flex-col p-10 ml-10 items-center justify-center z-50">
-          <Link to="/" className="text-neutral-300 text-3xl font-medium">
+        <div className="flex flex-col lg:p-20 p-5 lg:ml-10 items-center justify-center z-50">
+          <Link to="/" className="text-neutral-300 lg:text-3xl lg:font-medium">
             Creatives School
           </Link>
-          <Link to="/" className="text-neutral-300 text-2xl">
+          <Link to="/" className="text-neutral-300 lg:text-2xl">
             Of Arts
           </Link>
-          <h1>Copyright @CreativesSchoolofArt</h1>
+          <h1 className="text-xs ">Copyright @CreativesSchoolofArt</h1>
         </div>
         <motion.section
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 0.5 }}
-          className={`flex flex-col text-white p-10 z-50`}
+          className={`flex text-white lg:p-10 p-1 z-50 lg:flex-col`}
         >
           {FooterElements1.map((index) => (
             <Link
               to={index.url}
-              className="text-white m-1 flex w-fit cursor-pointer hover:underline ease-in-out duration-200 text-sm"
+              className="text-white m-1 flex w-fit cursor-pointer hover:underline ease-in-out duration-200 text-xs border-l pl-2 lg:border-0"
               key={index}
             >
               {index.title}
@@ -61,12 +60,12 @@ const Footer = () => {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.5 }}
-          className={`flex flex-col text-white p-10 z-50`}
+          className={`flex text-white lg:p-10 p-1 z-50 lg:flex-col `}
         >
           {FooterElements2.map((index) => (
             <Link
               to={index.url}
-              className="text-white m-1 flex w-fit cursor-pointer hover:underline ease-in-out duration-200 text-sm"
+              className="text-white m-1 flex w-fit cursor-pointer hover:underline ease-in-out duration-200 text-xs border-l pl-2 lg:border-0"
               key={index}
             >
               {index.title}
@@ -77,31 +76,31 @@ const Footer = () => {
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 1.5 }}
-          className="flex flex-wrap items-center justify-center gap-7 z-50"
+          className="flex flex-wrap items-center justify-center gap-7 z-50 pt-5 pb-5 lg:h-full"
         >
           <Link
             to={`https://www.instagram.com/mr_saxena007?igsh=a3I5MWVveXBzb2Iw`}
             className="rounded-2xl border-4 border-neutral-800 p-2 hover:-translate-y-2 duration-300 ease-in-out"
           >
-            <FiInstagram className="text-2xl text-red-500" />
+            <FiInstagram className="lg:text-2xl text-red-500" />
           </Link>
           <Link
             to={`https://www.facebook.com/profile.php?id=100006677474839&mibextid=ZbWKwL`}
             className="rounded-2xl border-4 border-neutral-800 p-2 hover:-translate-y-2 duration-300 ease-in-out"
           >
-            <FaFacebookF className="text-2xl text-cyan-500" />
+            <FaFacebookF className="lg:text-2xl text-cyan-500" />
           </Link>
           <Link
             to={`https://www.linkedin.com/in/kshitij-saxena-16baa5261/`}
             className="rounded-2xl border-4 border-neutral-800 p-2 hover:-translate-y-2 duration-300 ease-in-out"
           >
-            <FaLinkedinIn className="text-2xl text-blue-500" />
+            <FaLinkedinIn className="lg:text-2xl text-blue-500" />
           </Link>
           <Link
             to={`https://www.youtube.com/@CreativesArtchool`}
             className="rounded-2xl border-4 border-neutral-800 p-2 hover:-translate-y-2 duration-300 ease-in-out"
           >
-            <FaYoutube className="text-2xl text-red-500" />
+            <FaYoutube className="lg:text-2xl text-red-500" />
           </Link>
         </motion.div>
       </div>

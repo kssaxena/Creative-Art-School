@@ -13,6 +13,8 @@ import PaymentsPage from "./components/Payments";
 function App() {
   return (
     <>
+    <div className="mx-auto w-full">
+
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -27,6 +29,7 @@ function App() {
         <Route path="/payments" element={<PaymentsPage />} />
       </Routes>
       <Footer />
+    </div>
     </>
   );
 }
