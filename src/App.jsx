@@ -13,7 +13,7 @@ import PaymentsPage from "./components/Payments";
 function App() {
   return (
     <>
-    <div className="mx-auto w-full">
+    <div className="mx-auto w-full overflow-hidden">
 
       <Header />
       <Routes>

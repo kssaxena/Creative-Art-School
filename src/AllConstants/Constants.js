@@ -25,152 +25,158 @@ export { Logo };
 export const ProductDetails1 = [
   {
     id: "0",
-    icon: "Know More",
-    title: "Steel Doors",
     photo:
-      "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1719575956/AriserTradco/IMG-20240628-WA0009_xav4m2.jpg",
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103437/Pictures/IMG-20240727-WA0050_akv5tt.jpg",
   },
   {
     id: "1",
-    icon: "Know More",
-    title: "Steel Doors",
     photo:
-      "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1719575956/AriserTradco/IMG-20240628-WA0009_xav4m2.jpg",
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103437/Pictures/IMG-20240727-WA0049_ogq08m.jpg",
   },
   {
     id: "2",
-    icon: "Know More",
-    title: "Steel Doors",
     photo:
-      "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1719575956/AriserTradco/IMG-20240628-WA0010_z97gg4.jpg",
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103437/Pictures/IMG-20240727-WA0052_vlssp0.jpg",
   },
   {
     id: "3",
-    icon: "Know More",
-    title: "Steel Doors",
     photo:
-      "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1719575956/AriserTradco/IMG-20240628-WA0007_bdbds8.jpg",
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103437/Pictures/IMG-20240727-WA0051_ipqwfk.jpg",
   },
   {
     id: "4",
-    icon: "Know More",
-    title: "Steel Doors",
     photo:
-      "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1719575956/AriserTradco/IMG-20240628-WA0006_tsdott.jpg",
-  },
-];
-
-export const ProductDetails2 = [
-  {
-    id: "0",
-    icon: "Know More",
-    title: "Steel Doors",
-    photo:
-      "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1719575956/AriserTradco/IMG-20240628-WA0005_gw6l2m.jpg",
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103437/Pictures/IMG-20240727-WA0053_ubdoct.jpg",
   },
   {
-    id: "1",
-    icon: "Know More",
-    title: "Steel Doors",
+    id: "5",
     photo:
-      "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1719575955/AriserTradco/IMG-20240628-WA0004_ww4e3g.jpg",
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103437/Pictures/IMG-20240727-WA0048_jo81fu.jpg",
   },
   {
-    id: "2",
-    icon: "Know More",
-    title: "Steel Doors",
+    id: "6",
     photo:
-      "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1719575955/AriserTradco/IMG-20240628-WA0019_idoghw.jpg",
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103438/Pictures/IMG-20240727-WA0055_xse77i.jpg",
   },
   {
-    id: "3",
-    icon: "Know More",
-    title: "Steel Doors",
+    id: "7",
     photo:
-      "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1719575955/AriserTradco/IMG-20240628-WA0015_be8mqe.jpg",
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103438/Pictures/IMG-20240727-WA0057_ttyq7g.jpg",
   },
   {
-    id: "4",
-    icon: "Know More",
-    title: "Steel Doors",
+    id: "8",
     photo:
-      "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1719575955/AriserTradco/IMG-20240628-WA0003_ptm3ju.jpg",
-  },
-];
-
-export const ProductDetails3 = [
-  {
-    id: "0",
-    icon: "Know More",
-    title: "Steel Doors",
-    photo:
-      "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1719575955/AriserTradco/IMG-20240628-WA0022_welqld.jpg",
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103438/Pictures/IMG-20240727-WA0054_jhnkwt.jpg",
   },
   {
-    id: "1",
-    icon: "Know More",
-    title: "Steel Doors",
+    id: "9",
     photo:
-      "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1719575955/AriserTradco/IMG-20240628-WA0014_ndhkyh.jpg",
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103439/Pictures/IMG-20240727-WA0058_y1u5ju.jpg",
   },
   {
-    id: "2",
-    icon: "Know More",
-    title: "Steel Doors",
+    id: "10",
     photo:
-      "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1719575954/AriserTradco/IMG-20240628-WA0021_yrhoy6.jpg",
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103439/Pictures/IMG-20240727-WA0056_jkc4ru.jpg",
   },
   {
-    id: "3",
-    icon: "Know More",
-    title: "Steel Doors",
+    id: "11",
     photo:
-      "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1719575954/AriserTradco/IMG-20240628-WA0020_ouy4b2.jpg",
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103439/Pictures/IMG-20240727-WA0060_ghpfvj.jpg",
   },
   {
-    id: "4",
-    icon: "Know More",
-    title: "Steel Doors",
+    id: "12",
     photo:
-      "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1719575954/AriserTradco/IMG-20240628-WA0018_pbjcoo.jpg",
-  },
-];
-
-export const ProductDetails4 = [
-  {
-    id: "0",
-    icon: "Know More",
-    title: "Steel Doors",
-    photo:
-      "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1719575954/AriserTradco/IMG-20240628-WA0017_dvgk5x.jpg",
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103439/Pictures/IMG-20240727-WA0059_uvzvy7.jpg",
   },
   {
-    id: "1",
-    icon: "Know More",
-    title: "Steel Doors",
+    id: "13",
     photo:
-      "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1719575954/AriserTradco/IMG-20240628-WA0012_savwma.jpg",
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103440/Pictures/IMG-20240727-WA0061_vmng8d.jpg",
   },
   {
-    id: "2",
-    icon: "Know More",
-    title: "Steel Doors",
+    id: "14",
     photo:
-      "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1719575954/AriserTradco/IMG-20240628-WA0011_fr801m.jpg",
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103441/Pictures/IMG-20240727-WA0062_df9qs6.jpg",
   },
   {
-    id: "3",
-    icon: "Know More",
-    title: "Steel Doors",
+    id: "15",
     photo:
-      "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1719575953/AriserTradco/IMG-20240628-WA0016_gspvf6.jpg",
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103442/Pictures/IMG-20240727-WA0033_k4shr2.jpg",
   },
   {
-    id: "4",
-    icon: "Know More",
-    title: "Steel Doors",
+    id: "16",
     photo:
-      "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1719575956/AriserTradco/IMG-20240628-WA0008_phtusd.jpg",
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103442/Pictures/IMG-20240727-WA0032_eocxrf.jpg",
+  },
+  {
+    id: "17",
+    photo:
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103442/Pictures/IMG-20240727-WA0034_dovwyz.jpg",
+  },
+  {
+    id: "18",
+    photo:
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103444/Pictures/IMG-20240727-WA0036_vjx57e.jpg",
+  },
+  {
+    id: "19",
+    photo:
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103445/Pictures/IMG-20240727-WA0037_uey18l.jpg",
+  },
+  {
+    id: "20",
+    photo:
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103445/Pictures/IMG-20240727-WA0039_k59kda.jpg",
+  },
+  {
+    id: "21",
+    photo:
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103445/Pictures/IMG-20240727-WA0038_ievx9i.jpg",
+  },
+  {
+    id: "22",
+    photo:
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103445/Pictures/IMG-20240727-WA0040_yrqewv.jpg",
+  },
+  {
+    id: "23",
+    photo:
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103448/Pictures/IMG-20240727-WA0042_c9txhh.jpg",
+  },
+  {
+    id: "24",
+    photo:
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103448/Pictures/IMG-20240727-WA0043_sboezl.jpg",
+  },
+  {
+    id: "25",
+    photo:
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103447/Pictures/IMG-20240727-WA0041_qppswy.jpg",
+  },
+  {
+    id: "26",
+    photo:
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103449/Pictures/IMG-20240727-WA0026_rg9pkt.jpg",
+  },
+  {
+    id: "27",
+    photo:
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103449/Pictures/IMG-20240727-WA0028_b04kei.jpg",
+  },
+  {
+    id: "28",
+    photo:
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103449/Pictures/IMG-20240727-WA0027_dxkr7l.jpg",
+  },
+  {
+    id: "29",
+    photo:
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103456/Pictures/IMG-20240727-WA0046_l4yrku.jpg",
+  },
+  {
+    id: "30",
+    photo:
+      "https://res.cloudinary.com/dhay8biud/image/upload/v1722103457/Pictures/IMG-20240727-WA0047_hjnssh.jpg",
   },
 ];
 
@@ -271,29 +277,35 @@ export const ImagesForSlider_2 = [
 ];
 
 export const ImagesForParallaxScroll = [
-  "https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
-  "https://images.unsplash.com/photo-1505144808419-1957a94ca61e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3070&q=80",
-  "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-  "https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
-  "https://images.unsplash.com/photo-1505144808419-1957a94ca61e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3070&q=80",
-  "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-  "https://images.unsplash.com/photo-1682686581854-5e71f58e7e3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-  "https://images.unsplash.com/photo-1510784722466-f2aa9c52fff6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-  "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-  "https://images.unsplash.com/photo-1439853949127-fa647821eba0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2640&q=80",
-  "https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
-  "https://images.unsplash.com/photo-1505144808419-1957a94ca61e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3070&q=80",
-  "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-  "https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
-  "https://images.unsplash.com/photo-1505144808419-1957a94ca61e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3070&q=80",
-  "https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
-  "https://images.unsplash.com/photo-1505144808419-1957a94ca61e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3070&q=80",
-  "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-  "https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
-  "https://images.unsplash.com/photo-1505144808419-1957a94ca61e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3070&q=80",
-  "https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
-  "https://images.unsplash.com/photo-1505144808419-1957a94ca61e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3070&q=80",
-  "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-  "https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
-  "https://images.unsplash.com/photo-1505144808419-1957a94ca61e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3070&q=80",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103437/Pictures/IMG-20240727-WA0050_akv5tt.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103437/Pictures/IMG-20240727-WA0049_ogq08m.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103437/Pictures/IMG-20240727-WA0052_vlssp0.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103437/Pictures/IMG-20240727-WA0051_ipqwfk.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103437/Pictures/IMG-20240727-WA0053_ubdoct.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103437/Pictures/IMG-20240727-WA0048_jo81fu.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103438/Pictures/IMG-20240727-WA0055_xse77i.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103438/Pictures/IMG-20240727-WA0057_ttyq7g.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103438/Pictures/IMG-20240727-WA0054_jhnkwt.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103439/Pictures/IMG-20240727-WA0058_y1u5ju.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103439/Pictures/IMG-20240727-WA0056_jkc4ru.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103439/Pictures/IMG-20240727-WA0060_ghpfvj.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103439/Pictures/IMG-20240727-WA0059_uvzvy7.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103440/Pictures/IMG-20240727-WA0061_vmng8d.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103441/Pictures/IMG-20240727-WA0062_df9qs6.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103442/Pictures/IMG-20240727-WA0033_k4shr2.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103442/Pictures/IMG-20240727-WA0032_eocxrf.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103442/Pictures/IMG-20240727-WA0034_dovwyz.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103444/Pictures/IMG-20240727-WA0036_vjx57e.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103445/Pictures/IMG-20240727-WA0037_uey18l.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103445/Pictures/IMG-20240727-WA0039_k59kda.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103445/Pictures/IMG-20240727-WA0038_ievx9i.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103445/Pictures/IMG-20240727-WA0040_yrqewv.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103448/Pictures/IMG-20240727-WA0042_c9txhh.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103448/Pictures/IMG-20240727-WA0043_sboezl.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103447/Pictures/IMG-20240727-WA0041_qppswy.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103449/Pictures/IMG-20240727-WA0026_rg9pkt.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103449/Pictures/IMG-20240727-WA0028_b04kei.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103449/Pictures/IMG-20240727-WA0027_dxkr7l.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103456/Pictures/IMG-20240727-WA0046_l4yrku.jpg",
+  "https://res.cloudinary.com/dhay8biud/image/upload/v1722103457/Pictures/IMG-20240727-WA0047_hjnssh.jpg",
 ];

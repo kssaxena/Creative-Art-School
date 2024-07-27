@@ -10,6 +10,17 @@ const HomeUtils2 = () => {
   return (
     <section className="landing_quote_and_image flex p-10 lg:p-20 bg-[#365244]  h-full w-full ">
       <div className="flex flex-wrap lg:gap-0 justify-center w-full gap-10">
+        <motion.div
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ x: -100, opacity: 0 }}
+          transition={{ duration: 0.5 }}
+          className="lg:w-1/2  flex justify-center items-center"
+        >
+          <img
+            src={Images[1].url}
+            className="w-1/2 rounded-md shadow-md  shadow-black"
+          />
+        </motion.div>
         <div className="w-full lg:w-1/2 flex justify-center items-center">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
@@ -31,19 +42,6 @@ const HomeUtils2 = () => {
             </Link>
           </motion.div>
         </div>
-
-          <motion.div
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ x: -100, opacity: 0 }}
-            transition={{ duration: 0.5 }}
-            className="lg:w-1/2  flex justify-center items-center"
-          >
-            <img
-              src={Images[1].url}
-              className="w-1/2 rounded-md shadow-md  shadow-black"
-            />
-          </motion.div>
-      
       </div>
     </section>
   );

@@ -6,6 +6,8 @@ import ReactPlayer from "react-player";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { motion } from "framer-motion";
+import { useState } from "react";
+import { AllImagePopup } from "../utils/PopUps";
 
 const Gallery = () => {
   const responsive = {
@@ -28,8 +30,10 @@ const Gallery = () => {
     },
   };
 
+  const [showAllImages, setShowImages] = useState(false);
+
   return (
-    <section id="gallery" className={`flex flex-col pt-28 bg-[#365244]`}>
+    <section id="gallery" className={`flex flex-col pt-28 bg-[#365244] `}>
       <motion.section
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -42,6 +46,16 @@ const Gallery = () => {
           speed="slow"
         />
       </motion.section>
+      {showAllImages && <AllImagePopup onClose={() => setShowImages(false)} />}
+      <section className="w-full flex items-center justify-center ">
+        <button
+          onClick={() => setShowImages(true)}
+          className="lg:px-6 lg:py-2 px-2 py-1 rounded-full backdrop-blur-lg bg-[#0B1D24] lg:text-lg text-xs transform hover:-translate-y-1 transition duration-400 text-white font-light justify-center items-center text-center hidden lg:block"
+        >
+          {" "}
+          View All
+        </button>
+      </section>
       <motion.section
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ y: 100, opacity: 0 }}

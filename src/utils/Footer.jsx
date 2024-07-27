@@ -31,7 +31,7 @@ const Footer = () => {
     <div class="relative h-full w-full bg-slate-950">
       <div className=" w-[100%] text-white flex-col justify-evenly items-center flex lg:flex-row lg:items-center gap-5 ">
         <div class="absolute bottom-0 left-0 right-0 top-0 "></div>
-        <div className="flex flex-col lg:p-20 p-5 lg:ml-10 items-center justify-center z-50">
+        <div className="flex flex-col lg:p-20 p-5 lg:ml-10 items-center justify-center z-40">
           <Link to="/" className="text-neutral-300 lg:text-3xl lg:font-medium">
             Creatives School
           </Link>
@@ -44,7 +44,7 @@ const Footer = () => {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 0.5 }}
-          className={`flex text-white lg:p-10 p-1 z-50 lg:flex-col`}
+          className={`flex text-white lg:p-10 p-1 z-40 lg:flex-col`}
         >
           {FooterElements1.map((index) => (
             <Link
@@ -60,7 +60,7 @@ const Footer = () => {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.5 }}
-          className={`flex text-white lg:p-10 p-1 z-50 lg:flex-col `}
+          className={`flex text-white lg:p-10 p-1 z-40 lg:flex-col `}
         >
           {FooterElements2.map((index) => (
             <Link
@@ -76,7 +76,7 @@ const Footer = () => {
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 1.5 }}
-          className="flex flex-wrap items-center justify-center gap-7 z-50 pt-5 pb-5 lg:h-full"
+          className="flex flex-wrap items-center justify-center gap-7 z-40 pt-5 pb-5 lg:h-full"
         >
           <Link
             to={`https://www.instagram.com/mr_saxena007?igsh=a3I5MWVveXBzb2Iw`}

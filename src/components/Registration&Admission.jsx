@@ -85,7 +85,10 @@ const RegistrationPage = () => {
             transition={{ duration: 0.5, delay: 0 }}
             className="w-full text-center lg:text-2xl font-semibold"
           >
-            Feel free to enquire here,
+            Feel free to enquire here,<br></br>
+            <span>
+              Or reach us on <span className="text-blue-500">creativesonlineart@gmail.com</span>
+            </span>
           </motion.h1>
           <motion.div
             initial={{ y: -100, opacity: 0 }}
