@@ -28,10 +28,10 @@ const HomeUtils2 = () => {
             transition={{ duration: 0.5 }}
             className="landing_quote w-3/4 flex flex-col items-center justify-evenly h-full lg:w-full lg:items-center gap-3"
           >
-            <h1 className="lg:text-4xl  text-center font-semibold font-mono lg:p-10 mt-5 lg:mt-0  ">
+            <h1 className="lg:text-4xl  text-center font-semibold font-mono lg:p-10 mt-5 lg:mt-0 text-white ">
               Where Imagination comes alive
             </h1>
-            <div className=" lg:w-full">
+            <div className=" lg:w-full text-white select-none">
               <TextGenerateEffect words={paragraph} />
             </div>
             <Link

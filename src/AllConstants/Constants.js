@@ -184,47 +184,27 @@ export const ImagesForSlider_1 = [
   {
     // demo_image_for_texting_image_slideshow
     id: 0,
-    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1711808780/WhatsApp_Image_2024-03-30_at_19.55.33_55cd7e68_aze2fx.jpg",
+    url: "https://res.cloudinary.com/dhay8biud/image/upload/v1722143014/IMG-20240728-WA0004_udxfxm.jpg",
   },
   {
     // demo_image_for_texting_image_slideshow
     id: 1,
-    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1711808780/WhatsApp_Image_2024-03-30_at_19.55.33_82d7df6f_sm2xoj.jpg",
+    url: "https://res.cloudinary.com/dhay8biud/image/upload/v1722143015/IMG-20240728-WA0006_xrtluj.jpg",
   },
   {
     // demo_image_for_texting_image_slideshow
     id: 2,
-    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1708599383/samples/landscapes/girl-urban-view.jpg",
+    url: "https://res.cloudinary.com/dhay8biud/image/upload/v1722143014/IMG-20240728-WA0008_pat5hc.jpg",
   },
   {
     // demo_image_for_texting_image_slideshow
     id: 3,
-    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1708599386/samples/landscapes/architecture-signs.jpg",
+    url: "https://res.cloudinary.com/dhay8biud/image/upload/v1722143014/IMG-20240728-WA0007_ycnbd1.jpg",
   },
   {
     // demo_image_for_texting_image_slideshow
     id: 4,
-    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1708599387/samples/landscapes/beach-boat.jpg",
-  },
-  {
-    // demo_image_for_texting_image_slideshow
-    id: 5,
-    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1708599391/samples/landscapes/nature-mountains.jpg",
-  },
-  {
-    // demo_image_for_texting_image_slideshow
-    id: 6,
-    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1708599382/samples/sheep.jpg",
-  },
-  {
-    // demo_image_for_texting_image_slideshow
-    id: 7,
-    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1708599409/samples/coffee.jpg",
-  },
-  {
-    // demo_image_for_texting_image_slideshow
-    id: 8,
-    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1711951292/20240330113008_IMG_6474_yjdnai.jpg",
+    url: "https://res.cloudinary.com/dhay8biud/image/upload/v1722143014/IMG-20240728-WA0010_tay6gh.jpg",
   },
 ];
 
@@ -232,47 +212,27 @@ export const ImagesForSlider_2 = [
   {
     // demo_image_for_texting_image_slideshow
     id: 0,
-    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1711808780/WhatsApp_Image_2024-03-30_at_19.55.33_55cd7e68_aze2fx.jpg",
+    url: "https://res.cloudinary.com/dhay8biud/image/upload/v1722103456/Pictures/IMG-20240721-WA0009_pu21n1.jpg",
   },
   {
     // demo_image_for_texting_image_slideshow
     id: 1,
-    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1711808780/WhatsApp_Image_2024-03-30_at_19.55.33_82d7df6f_sm2xoj.jpg",
+    url: "https://res.cloudinary.com/dhay8biud/image/upload/v1722103455/Pictures/IMG-20240721-WA0008_jilrt7.jpg",
   },
   {
     // demo_image_for_texting_image_slideshow
     id: 2,
-    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1708599383/samples/landscapes/girl-urban-view.jpg",
+    url: "https://res.cloudinary.com/dhay8biud/image/upload/v1722103453/Pictures/IMG-20240721-WA0007_vvngr7.jpg",
   },
   {
     // demo_image_for_texting_image_slideshow
     id: 3,
-    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1708599386/samples/landscapes/architecture-signs.jpg",
+    url: "https://res.cloudinary.com/dhay8biud/image/upload/v1722103452/Pictures/IMG-20240721-WA0006_o3e8bw.jpg",
   },
   {
     // demo_image_for_texting_image_slideshow
     id: 4,
-    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1708599387/samples/landscapes/beach-boat.jpg",
-  },
-  {
-    // demo_image_for_texting_image_slideshow
-    id: 5,
-    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1708599391/samples/landscapes/nature-mountains.jpg",
-  },
-  {
-    // demo_image_for_texting_image_slideshow
-    id: 6,
-    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1708599382/samples/sheep.jpg",
-  },
-  {
-    // demo_image_for_texting_image_slideshow
-    id: 7,
-    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1708599409/samples/coffee.jpg",
-  },
-  {
-    // demo_image_for_texting_image_slideshow
-    id: 8,
-    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1711951292/20240330113008_IMG_6474_yjdnai.jpg",
+    url: "https://res.cloudinary.com/dhay8biud/image/upload/v1722103452/Pictures/IMG-20240721-WA0005_cacaxj.jpg",
   },
 ];
 

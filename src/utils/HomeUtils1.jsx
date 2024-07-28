@@ -30,7 +30,7 @@ const HomeUtils1 = () => {
             <h1 className="lg:text-4xl  text-center font-semibold font-mono lg:p-10 mt-5 lg:mt-0">
               The Vibrant World of Art: Unlocking Creativity
             </h1>
-            <div className=" lg:w-full">
+            <div className=" lg:w-full text-black select-none">
               <TextGenerateEffect words={paragraph} />
             </div>
             <div className="flex flex-col lg:flex-row w-1/2 justify-evenly items-center lg:w-full lg:pt-10 py-5">

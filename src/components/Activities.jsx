@@ -16,7 +16,7 @@ const Activities = () => {
           initial={{ y: 0, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.5 }}
-          className={`image_sliding_area w-full pt-20 lg:px-20`}
+          className={`image_sliding_area w-full pt-20 lg:px-10`}
         >
           <ImageSliderArtExhibition />
         </motion.section>

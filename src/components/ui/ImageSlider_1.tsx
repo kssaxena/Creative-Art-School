@@ -23,9 +23,11 @@ const ImageSliderArtExhibition = () => {
   };
   return (
     <section
-      className={` flex justify-around items-center m-10 rounded-2xl shadow-md shadow-black hover:shadow-lg hover:shadow-black duration-300 ease-in-out h-96`}
+      className={` flex justify-around items-center m-10 rounded-2xl shadow-md shadow-black hover:shadow-lg hover:shadow-black duration-300 ease-in-out lg:h-[600px] h-[200px]`}
     >
-      <div className={`max-w-[1400px] h-[400px] w-full relative group`}>
+      <div
+        className={`lg:max-w-[1400px] lg:h-[600px] h-[200px] w-full relative group`}
+      >
         <div
           style={{
             backgroundImage: `url(${ImagesForSlider_1[currentIndex].url})`,
