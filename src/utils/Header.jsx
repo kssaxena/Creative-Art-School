@@ -76,12 +76,12 @@ const Header = () => {
         initial={{ x: -100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0 }}
-        className="w-[33.33%] justify-evenly items-center flex"
+        className="lg:w-[33.33%] justify-evenly items-center flex w-full"
       >
         <img src={CreativeSchoolArtLogo} className="w-16 h-w-16 rounded-full" />
         <Link
           to={`/`}
-          className="  text-black font-semibold text-xl  hidden lg:block"
+          className="  text-black font-semibold text-xl "
         >
           Creatives School of Arts
         </Link>
