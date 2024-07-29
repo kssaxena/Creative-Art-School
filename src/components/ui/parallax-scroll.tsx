@@ -2,7 +2,7 @@
 import { useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import { motion } from "framer-motion";
-import { Images } from "../../utils/ImagesForParallaxScroll";
+// import { Images } from "../../utils/ImagesForParallaxScroll";
 import { cn } from "../../utils/cn";
 import React from "react";
 

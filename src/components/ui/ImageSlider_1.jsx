@@ -3,6 +3,7 @@ import { ChevronRight } from "lucide-react";
 // import Images from "./Images_for_slider_1";
 import { ImagesForSlider_1 } from "../../AllConstants/Constants";
 import { useState } from "react";
+import React from "react";
 
 const ImageSliderArtExhibition = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
