@@ -33,7 +33,7 @@ const Gallery = () => {
   const [showAllImages, setShowImages] = useState(false);
 
   return (
-    <section id="gallery" className={`flex flex-col pt-28 bg-[#365244] `}>
+    <section className={`flex flex-col pt-28 bg-[#365244] `}>
       <motion.section
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
