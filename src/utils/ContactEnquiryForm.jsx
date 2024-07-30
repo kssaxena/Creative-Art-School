@@ -2,7 +2,6 @@ import { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 
-
 const Contact_EnquiryForm = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -28,10 +27,10 @@ const Contact_EnquiryForm = () => {
 
   const isFormFilled = () => {
     return (
-      form.name !== "",
-      form.number !== "",
-      form.email !== "",
-      form.message !== ""
+      form.name.trim() !== "" &&
+      form.number !== "" &&
+      form.email.trim() !== "" &&
+      form.message.trim() !== ""
     );
   };
 
@@ -39,7 +38,10 @@ const Contact_EnquiryForm = () => {
     e.preventDefault();
     setLoading(true);
 
-    // template_jcen1o6
+    if (form.number.length != 10) {
+      alert("Invalid Contact Number");
+      return;
+    }
 
     emailjs
       .send(
@@ -84,6 +86,7 @@ const Contact_EnquiryForm = () => {
             Name
           </label>
           <input
+            required={true}
             name="name"
             onChange={handleChange}
             value={form.name}
@@ -99,6 +102,7 @@ const Contact_EnquiryForm = () => {
             Email
           </label>
           <input
+            required={true}
             name="email"
             onChange={handleChange}
             value={form.email}
@@ -114,6 +118,7 @@ const Contact_EnquiryForm = () => {
             Contact
           </label>
           <input
+            required={true}
             name="number"
             onChange={handleChange}
             value={form.number}
@@ -130,6 +135,7 @@ const Contact_EnquiryForm = () => {
             Description
           </label>
           <input
+            required={true}
             name="message"
             onChange={handleChange}
             value={form.message}
@@ -141,7 +147,10 @@ const Contact_EnquiryForm = () => {
         </div>
         <div className=" submit_button flex  w-full justify-center items-center mt-5">
           <button
-            disabled={!isFormFilled()}
+            disabled={() => {
+              // console.log("Function OK");
+              return !isFormFilled();
+            }}
             onClick={handleSubmit}
             type="submit"
             className={`lg:px-6 lg:py-2 px-2 py-1 rounded-full backdrop-blur-lg bg-[#0B1D24] lg:text-lg text-xs transform hover:-translate-y-1 transition duration-400 text-white font-light  flex justify-center items-center text-center`}

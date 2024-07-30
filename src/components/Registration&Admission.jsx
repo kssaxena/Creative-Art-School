@@ -62,7 +62,7 @@ const RegistrationPage = () => {
           >
             Download Form
             <Link
-              to={`https://docs.google.com/forms/d/e/1FAIpQLSdhzJhync5fSJfchdQuH5MgoVeOJjWbM16V02mH6xbeiZnRxQ/viewform`}
+              to={`https://drive.google.com/file/d/1SJPVOtORzKremUMgNIYArQFwe9gYJnaf/view?usp=drive_link`}
               className={`lg:px-6 lg:py-2 px-2 py-1 rounded-full backdrop-blur-lg bg-[#0B1D24] lg:text-lg text-xs transform hover:-translate-y-1 transition duration-400 text-white font-light flex justify-center items-center text-center`}
             >
               Download
@@ -87,7 +87,10 @@ const RegistrationPage = () => {
           >
             Feel free to enquire here,<br></br>
             <span>
-              Or reach us on <span className="text-blue-500">creativesonlineart@gmail.com</span>
+              Or reach us on{" "}
+              <span className="text-blue-500">
+                creativesonlineart@gmail.com
+              </span>
             </span>
           </motion.h1>
           <motion.div

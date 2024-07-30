@@ -55,7 +55,7 @@ const Activities = () => {
         className={` w-full flex flex-col justify-center items-center`}
       >
         <Link
-          to={"registration_&_admissions"}
+          to={"/registration_&_admissions"}
           className={`lg:px-6 lg:py-2 px-2 py-1 rounded-full backdrop-blur-lg bg-[#0B1D24] lg:text-lg text-xs transform hover:-translate-y-1 transition duration-400 text-white font-light  flex justify-center items-center text-center`}
         >
           Admissions Open

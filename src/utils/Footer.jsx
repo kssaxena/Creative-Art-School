@@ -79,19 +79,19 @@ const Footer = () => {
           className="flex flex-wrap items-center justify-center gap-7 z-40 pt-5 pb-5 lg:h-full"
         >
           <Link
-            to={`https://www.instagram.com/mr_saxena007?igsh=a3I5MWVveXBzb2Iw`}
+            to={`https://www.instagram.com/creativesonlineart?igsh=YzljYTk1ODg3Zg==`}
             className="rounded-2xl border-4 border-neutral-800 p-2 hover:-translate-y-2 duration-300 ease-in-out"
           >
             <FiInstagram className="lg:text-2xl text-red-500" />
           </Link>
           <Link
-            to={`https://www.facebook.com/profile.php?id=100006677474839&mibextid=ZbWKwL`}
+            to={`https://www.facebook.com/creativesonlineartschool?mibextid=ZbWKwL`}
             className="rounded-2xl border-4 border-neutral-800 p-2 hover:-translate-y-2 duration-300 ease-in-out"
           >
             <FaFacebookF className="lg:text-2xl text-cyan-500" />
           </Link>
           <Link
-            to={`https://www.linkedin.com/in/kshitij-saxena-16baa5261/`}
+            to={`https://www.linkedin.com/in/souvik-goswami-4ab422320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app`}
             className="rounded-2xl border-4 border-neutral-800 p-2 hover:-translate-y-2 duration-300 ease-in-out"
           >
             <FaLinkedinIn className="lg:text-2xl text-blue-500" />
