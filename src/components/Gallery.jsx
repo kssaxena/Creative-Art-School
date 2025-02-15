@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { InfiniteProductSlider } from "./ui/infinite-moving-cards";
 import { ProductDetails1 } from "../AllConstants/Constants";
-import React from "react";
+import React, { useEffect } from "react";
 import ReactPlayer from "react-player";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -32,6 +32,59 @@ const Gallery = () => {
 
   const [showAllImages, setShowImages] = useState(false);
 
+  const BannerSlider = () => {
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    const nextImage = () => {
+      setCurrentIndex((prevIndex) =>
+        prevIndex === ProductDetails1.length - 1 ? 0 : prevIndex + 1
+      );
+    };
+
+    const prevImage = () => {
+      setCurrentIndex((prevIndex) =>
+        prevIndex === 0 ? ProductDetails1.length - 1 : prevIndex - 1
+      );
+    };
+
+    useEffect(() => {
+      const intervalId = setInterval(nextImage, 3000);
+      return () => clearInterval(intervalId);
+    }, []);
+
+    return (
+      <div className="relative w-full lg:h-[60vh] mx-auto overflow-hidden rounded-lg mb-20 lg:mx-20">
+        <div
+          className="flex transition-transform duration-500 ease-in-out flex-nowrap"
+          style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+        >
+          {ProductDetails1.map((image) => (
+            <div key={image.id} className="w-full flex-shrink-0">
+              <img
+                src={image.src}
+                alt={`Slide ${image.id}`}
+                className="w-full h-[60vh] object-cover"
+              />
+            </div>
+          ))}
+        </div>
+
+        <button
+          onClick={prevImage}
+          className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full"
+        >
+          &#8249;
+        </button>
+        <button
+          onClick={nextImage}
+          className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full"
+        >
+          &#8250;
+        </button>
+      </div>
+    );
+  };
+
   return (
     <section className={`flex flex-col pt-28 bg-[#365244] `}>
       <motion.section
@@ -40,11 +93,12 @@ const Gallery = () => {
         transition={{ duration: 0.5, delay: 0 }}
         className={`picture_gallery_1 flex justify-center items-center lg:mb-10 p-10 lg:p-0 lg:w-full `}
       >
-        <InfiniteProductSlider
+        {/* <InfiniteProductSlider
           items={ProductDetails1}
           direction="right"
           speed="slow"
-        />
+        /> */}
+        <BannerSlider />
       </motion.section>
       {showAllImages && <AllImagePopup onClose={() => setShowImages(false)} />}
       <section className="w-full flex items-center justify-center ">
